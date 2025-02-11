@@ -73,10 +73,11 @@
 		@include breakpoint('<=large') {
 			@include padding(7em, 0, (0, 0, _size(wrapper-edges, large) * 0.5, 0));
 
-			background-color:		_palette(bg);
+			background-color:		_palette(NYC);
 
-			background-image:		linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2)),
-									url('../../images/bg.jpg');
+			background-image:		linear-gradient(to top, transparentize(_palette(NYC), 0.2), transparentize(_palette(NYC), 0.2)),
+									url('../../images/NYC.jpg');
+									//url('../../images/bg.jpg');
 
 			background-size:		auto,
 									cover;
