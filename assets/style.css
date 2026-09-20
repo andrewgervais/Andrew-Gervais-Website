@@ -267,15 +267,26 @@ img { max-width: 100%; display: block; }
 /* ---------- About ---------- */
 .about-grid {
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 340px 1fr;
   gap: 40px;
   align-items: start;
 }
 
-.about-photo img {
+.about-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.about-photos img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: var(--radius);
   border: 1px solid var(--border);
 }
+
+.about-photos img[src$="osu.jpg"] { object-position: 41% center; }
 
 .about-text p {
   color: var(--text-secondary);
@@ -561,7 +572,7 @@ button:focus-visible {
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .about-grid { grid-template-columns: 1fr; }
-  .about-photo { max-width: 280px; }
+  .about-photos { max-width: 420px; }
   .project-grid,
   .involvement-grid,
   .essay-grid,
