@@ -22,7 +22,6 @@
       <a href="#projects" data-nav>Projects</a>
       <a href="#skills" data-nav>Skills</a>
       <a href="#involvement" data-nav>Involvement</a>
-      <a href="#essays" data-nav>Essays</a>
       <a href="#contact" data-nav>Contact</a>
     </nav>
     <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -49,7 +48,7 @@
       </a>
       <a href="https://github.com/andrewgervais" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
       <a href="https://www.linkedin.com/in/andrewjgervais/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:agervais25@outlook.com" class="btn btn-ghost">Email</a>
+      <a href="mailto:gervais.25@osu.edu" class="btn btn-ghost">Email</a>
     </div>
   </div>
   <svg class="hero-line" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
@@ -89,29 +88,30 @@
 <section class="section section-alt" id="experience">
   <div class="section-inner">
     <h2><span class="section-index">02</span> Experience</h2>
-    <!-- TODO: replace placeholder entries below with real roles, dates, and bullet points -->
     <div class="timeline">
       <article class="timeline-item">
         <div class="timeline-meta">
-          <span class="timeline-date">[Month Year] — [Month Year]</span>
+          <span class="timeline-date">June 2025 — Aug. 2025</span>
         </div>
         <div class="timeline-content">
-          <h3>[Role title] · <span class="timeline-org">[Company / Organization]</span></h3>
+          <h3>Analyst Intern · <span class="timeline-org">JPMorganChase — Columbus, OH</span></h3>
           <ul>
-            <li>[What you owned or built — lead with the action and the result]</li>
-            <li>[A second bullet with a concrete number or outcome if you have one]</li>
+            <li>Designed and delivered interactive Tableau dashboards for senior management that track UI-based events (screen views, button clicks, text entry) across the user journey of linking Chase bank accounts with Amazon accounts for Chase–Amazon co-branded credit cardholders; leveraged for reporting on linking and gating flows and currently being updated for the upcoming passkey authentication launch</li>
+            <li>Built a Tableau dashboard for the Secure Commerce team to monitor API activity across three third-party companies using SAML tokens; tracked the volume of API calls across three API types for nine client integrations. The dashboard was presented in monthly executive metrics reviews and used weekly to monitor product health, performance, and error trends, enabling proactive issue resolution</li>
+            <li>Served on the Columbus Culture Committee, where I co-led the planning, budgeting, and execution of a firm-wide networking event with 400+ participants, fostering community engagement, professional development, and diversity network collaboration</li>
           </ul>
         </div>
       </article>
       <article class="timeline-item">
         <div class="timeline-meta">
-          <span class="timeline-date">[Month Year] — [Month Year]</span>
+          <span class="timeline-date">May 2024 — Aug. 2024</span>
         </div>
         <div class="timeline-content">
-          <h3>[Role title] · <span class="timeline-org">[Company / Organization]</span></h3>
+          <h3>Data Analytics Intern · <span class="timeline-org">Audiology Express — Dayton, OH</span></h3>
           <ul>
-            <li>[Bullet one]</li>
-            <li>[Bullet two]</li>
+            <li>Collaborated on building a predictive model using linear regression to forecast demand in new regions based on demographic and economic factors, enabling targeted expansion into 2 high-potential markets</li>
+            <li>Applied clustering algorithms to group nearby nursing homes, schools, and VA facilities, and developed linear regression models to predict travel times based on distance, traffic, and location type (urban vs. rural), improving audiologist productivity and optimizing service routes to reduce average travel costs by 9%</li>
+            <li>Conducted comprehensive data cleaning, transformation, and visualization using Excel, to identify trends and insights, which directly informed process improvements and enhanced operational efficiency</li>
           </ul>
         </div>
       </article>
@@ -128,35 +128,109 @@
     <article class="project-featured">
       <div class="project-featured-text">
         <p class="project-tag">Featured</p>
-        <h3>Ohio Tax Capitalization Study</h3>
+        <h3>Citadel × Harvard Intercollegiate Stock Pitch</h3>
         <p>
-          A triple difference-in-differences analysis of Ohio's 2014 Homestead Exemption
-          expansion, testing whether the tax benefit capitalized into home prices across
-          Columbus, Cincinnati, and Cleveland. Built on Zillow ZHVI and Census ACS data,
-          with event-study pre-trend testing and robustness checks.
+          Competed in the Citadel × Harvard Financial Analysts Intercollegiate Stock Pitch
+          Competition, developing an equity research pitch that paired a company valuation
+          with an investment thesis and the key risks to it.
         </p>
         <div class="tag-row">
-          <span class="tag">Python</span>
-          <span class="tag">Difference-in-Differences</span>
-          <span class="tag">Zillow ZHVI</span>
-          <span class="tag">Census ACS API</span>
+          <span class="tag">Equity Research</span>
+          <span class="tag">Valuation</span>
+          <span class="tag">Financial Modeling</span>
         </div>
-        <a href="#" class="link-arrow" target="_blank" rel="noopener"><!-- TODO: link to notebook repo --> View notebook →</a>
       </div>
     </article>
 
     <!-- Secondary projects -->
     <div class="project-grid">
       <article class="project-card">
-        <h3>Carbon Trading Component</h3>
-        <p>A Java-based carbon credit trading model using OOP and core data structures
-          to simulate emissions tracking, credit purchases, and penalty calculations
-          under real-world carbon pricing concepts.</p>
+        <h3>Ohio Tax Capitalization Study</h3>
+        <p>A triple difference-in-differences study of whether Ohio's 2014 Homestead Exemption
+          expansion was capitalized into home prices. I built a panel of 150+ Ohio ZIP codes
+          from Zillow ZHVI and Census ACS data, then estimated effects with clustered standard
+          errors, event-study plots, and placebo tests. Price effects were largest in
+          high-senior-share ZIP codes in slower-growing metros and attenuated in Columbus,
+          consistent with housing supply elasticity theory. Results held up under alternative
+          treatment cutoffs and pre-trend tests.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">Econometrics</span>
+          <span class="tag">Triple DiD</span>
+          <span class="tag">Event Study</span>
+          <span class="tag">Census ACS API</span>
+        </div>
+        <!-- LINK: add URL later
+        <a href="#" class="link-arrow" target="_blank" rel="noopener">View notebook →</a>
+        -->
+      </article>
+      <article class="project-card">
+        <p class="project-tag">Competition</p>
+        <h3>Patient Flow Analysis — Stormont Vail Health</h3>
+        <p>Built for DataFest. I joined patient, diagnosis, provider, department, and
+          social-determinants tables covering 7.6M encounters at a Kansas health system.
+          I found that 5% of patients drove 35% of total volume, and 72% of them juggled
+          2–4 uncoordinated specialty schedules. I validated this against county-level
+          population health data. I then proposed a coordinated-scheduling redesign
+          estimated to recover ~98,000 appointment slots ($19.6M), cut transit costs by
+          ~75%, and eliminate 300K+ redundant touchpoints a year.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Data Visualization</span>
+          <span class="tag">Healthcare Analytics</span>
+        </div>
+      </article>
+      <article class="project-card">
+        <h3>Robot Rental Management Database</h3>
+        <p>Final project for my databases course. I designed a 15-table relational
+          database for a fictional robot-rental company and normalized every table to
+          BCNF, decomposing the robots and driverless-cars tables to remove transitive
+          dependencies. I added 9 indexes on the most-joined columns, triggers that
+          prevent a robot from being double-booked, and views that summarize rentals,
+          ratings, and revenue by robot model. On top of the database I built a Java
+          command-line app over JDBC that handles customer and robot management,
+          rentals, returns, deliveries, and reports. It uses prepared statements to
+          block SQL injection and transactions that roll back on failure.</p>
+        <div class="tag-row">
+          <span class="tag">SQL</span>
+          <span class="tag">SQLite</span>
+          <span class="tag">Java</span>
+          <span class="tag">JDBC</span>
+          <span class="tag">Database Design</span>
+        </div>
+      </article>
+      <article class="project-card">
+        <h3>Carbon Credit Trading Component</h3>
+        <p>A Java component that models carbon credit trading: tracking emissions,
+          purchasing credits, and calculating penalties for exceeding limits. It
+          applies environmental-economics concepts like carbon pricing and offsets.
+          Built with OOP design (kernel and secondary methods over Map and List) and
+          validated with test cases.</p>
         <div class="tag-row">
           <span class="tag">Java</span>
           <span class="tag">OOP</span>
+          <span class="tag">Environmental Economics</span>
         </div>
-        <a href="#" class="link-arrow" target="_blank" rel="noopener"><!-- TODO: repo link --> View repo →</a>
+        <!-- LINK: add URL later
+        <a href="#" class="link-arrow" target="_blank" rel="noopener">View repo →</a>
+        -->
+      </article>
+      <article class="project-card">
+        <h3>Genome String Reassembly</h3>
+        <p>A greedy-optimization algorithm, inspired by the Human Genome Project, that
+          rebuilds text from overlapping fragments using Set data structures. It was
+          developed test-first with JUnit and handles 1,000+ fragments, empty and
+          non-overlapping inputs, and custom delimiters.</p>
+        <div class="tag-row">
+          <span class="tag">Java</span>
+          <span class="tag">Algorithms</span>
+          <span class="tag">JUnit</span>
+          <span class="tag">TDD</span>
+        </div>
+        <!-- LINK: add URL later
+        <a href="#" class="link-arrow" target="_blank" rel="noopener">View repo →</a>
+        -->
       </article>
       <article class="project-card">
         <h3>Natural Number Calculator</h3>
@@ -167,18 +241,9 @@
           <span class="tag">Swing</span>
           <span class="tag">JUnit</span>
         </div>
-        <a href="#" class="link-arrow" target="_blank" rel="noopener"><!-- TODO: repo link --> View repo →</a>
-      </article>
-      <article class="project-card">
-        <h3>Human Genome String Reassembly</h3>
-        <p>A greedy-optimization algorithm inspired by the Human Genome Project,
-          reassembling fragmented strings by merging overlapping fragments at scale,
-          validated with test-driven development.</p>
-        <div class="tag-row">
-          <span class="tag">Java</span>
-          <span class="tag">TDD</span>
-        </div>
-        <a href="#" class="link-arrow" target="_blank" rel="noopener"><!-- TODO: repo link --> View repo →</a>
+        <!-- LINK: add URL later
+        <a href="#" class="link-arrow" target="_blank" rel="noopener">View repo →</a>
+        -->
       </article>
     </div>
   </div>
@@ -188,32 +253,37 @@
 <section class="section section-alt" id="skills">
   <div class="section-inner">
     <h2><span class="section-index">04</span> Skills</h2>
-    <!-- TODO: adjust categories/items to match your actual toolkit -->
     <div class="skills-grid">
       <div class="skill-group">
         <h3>Languages &amp; tools</h3>
         <div class="tag-row">
-          <span class="tag">Java</span>
           <span class="tag">Python</span>
           <span class="tag">SQL</span>
+          <span class="tag">R</span>
+          <span class="tag">Java</span>
+          <span class="tag">HTML</span>
           <span class="tag">Excel</span>
         </div>
       </div>
       <div class="skill-group">
         <h3>Data &amp; analytics</h3>
         <div class="tag-row">
+          <span class="tag">Tableau</span>
+          <span class="tag">Alteryx</span>
           <span class="tag">Pandas</span>
+          <span class="tag">SQLite</span>
           <span class="tag">Census API</span>
           <span class="tag">Regression analysis</span>
           <span class="tag">Data visualization</span>
         </div>
       </div>
       <div class="skill-group">
-        <h3>Economics &amp; methods</h3>
+        <h3>Economics &amp; finance</h3>
         <div class="tag-row">
           <span class="tag">Econometrics</span>
           <span class="tag">Difference-in-differences</span>
           <span class="tag">Event studies</span>
+          <span class="tag">Equity valuation</span>
           <span class="tag">Policy analysis</span>
         </div>
       </div>
@@ -225,25 +295,29 @@
 <section class="section" id="involvement">
   <div class="section-inner">
     <h2><span class="section-index">05</span> Involvement</h2>
-    <!-- TODO: add your actual role/contribution in each organization -->
     <div class="involvement-grid">
       <article class="involvement-card">
-        <h3>Big Data Analytics Association</h3>
-        <p>[Your role] — [what you do or have contributed]</p>
+        <h3>Kappa Theta Pi</h3>
+        <p><strong>Engagement Committee · May 2025 – Present</strong> — Co-lead all event logistics and vendor coordination for a 50+ member technology fraternity, managing scheduling, budgeting, and external partnerships for 8+ events per semester averaging 50–60 attendees. Partnered with Finance Chair to build and manage semester budgets in Excel; negotiated with local vendors to reduce per-event costs while maintaining quality across required and optional programming.</p>
       </article>
       <article class="involvement-card">
-        <h3>Kappa Theta Pi</h3>
-        <p>[Your role] — [what you do or have contributed]</p>
+        <h3>Alpha Phi Omega</h3>
+        <p><strong>Active Member · Jan. 2025 – Present</strong> — Completed 16+ hours of community service per semester across diverse project types, including environmental conservation, elder outreach, food access, and campus support initiatives — including the Little Free Libraries initiative, helping expand community access to books and educational resources across the Columbus area.</p>
       </article>
       <article class="involvement-card">
         <h3>oSTEM</h3>
-        <p>[Your role] — [what you do or have contributed]</p>
+        <p><strong>Active Member · Feb. 2024 – Present</strong> — Partner with queer peers to organize initiatives, such as workshops, panel discussions, and awareness campaigns, that educate and spread awareness about LGBTQ+ issues, challenges, and allyship within the STEM community. Contribute to creating a safe and supportive environment for queer individuals by facilitating networking events and resource sharing platforms to connect, share experiences, and advance their careers in STEM.</p>
+      </article>
+      <article class="involvement-card">
+        <h3>Big Data Analytics Association</h3>
+        <p><strong>Active Member · Sept. 2023 – Present</strong> — Engage in 6+ guest lectures and data visualization seminars, strengthening proficiency in SQL, Tableau, and machine learning concepts while applying academic coursework to hands-on analytics challenges. Participate in hands-on workshops and seminars focused on machine learning, predictive analytics, and data visualization techniques to enhance technical expertise.</p>
       </article>
     </div>
   </div>
 </section>
 
 <!-- ============ ESSAYS ============ -->
+<!-- ESSAYS SECTION: hidden for now, restore later
 <section class="section section-alt" id="essays">
   <div class="section-inner">
     <h2><span class="section-index">06</span> Essays</h2>
@@ -251,7 +325,6 @@
       I write about economics, markets, and data on Substack.
       <a href="https://notandrewgervais.substack.com/" class="link-arrow" target="_blank" rel="noopener">Read all posts →</a>
     </p>
-    <!-- TODO: replace with your real post titles, dates, and links -->
     <div class="essay-grid">
       <a href="#" class="essay-card" target="_blank" rel="noopener">
         <span class="essay-date">[Month Year]</span>
@@ -271,6 +344,8 @@
     </div>
   </div>
 </section>
+-->
+
 
 </main>
 
@@ -282,7 +357,7 @@
       <p>Reach out about internships, research, or anything data and economics.</p>
     </div>
     <div class="footer-links">
-      <a href="mailto:agervais25@outlook.com">agervais25@outlook.com</a>
+      <a href="mailto:gervais.25@osu.edu">gervais.25@osu.edu</a>
       <a href="https://www.linkedin.com/in/andrewjgervais/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/andrewgervais" target="_blank" rel="noopener">GitHub</a>
       <a href="assets/resume.pdf" download>Resume</a>
